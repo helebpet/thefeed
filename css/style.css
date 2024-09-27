@@ -28,11 +28,11 @@ main {
 nav {
     font-family: 'Lora', serif;
     background-color: #D1ECFD;
-    max-width: 30%;
+    max-width: 20%;
+    min-width: fit-content;
     height: 100vh;
     padding: 3%;
     position:fixed;
-    overflow: scroll;
     text-align: center;
 }
 
@@ -62,7 +62,7 @@ footer :hover{
 }
 
 .friends h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #ffffff; 
     font-family: 'Poppins', sans-serif;
     font-weight: bold; 
