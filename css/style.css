@@ -32,6 +32,7 @@ nav {
     height: 100vh;
     padding: 3%;
     position:fixed;
+    overflow: scroll;
     text-align: center;
 }
 
@@ -61,7 +62,7 @@ footer :hover{
 }
 
 .friends h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #ffffff; 
     font-family: 'Poppins', sans-serif;
     font-weight: bold; 
@@ -70,7 +71,7 @@ footer :hover{
 }
 
 .friends h4 {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #F1EA54; 
     font-family: 'Lora', serif;
     margin: 10px 0;
@@ -129,7 +130,6 @@ main p {
     text-align: center;
     align-content: center;
     max-width: fit-content;
-
 }
 
 #pinterest {
