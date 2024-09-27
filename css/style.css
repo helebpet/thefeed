@@ -45,6 +45,10 @@ footer p {
     text-align:right;  
 }
 
+footer :hover{
+    opacity: .5;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -84,13 +88,14 @@ footer p {
 }
 
 h5 {
+    font-family: 'Poppins', sans-serif;
     color: #484763;
     font-size: 1em;
     text-align: center;
     width: 70%;
 }
 
-h1, h5 {
+h1 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -106,16 +111,36 @@ section {
 
 main img, 
 main video {
-    border-radius: 20px; 
+    border-radius: 20px;
+    max-width: fit-content; 
 }
 
 main p {
-    font-weight: 600;
+    font-weight: 800;
 }
 
-.logo:hover {
-    transform: scale(1.05); 
-    opacity: 0.6; 
+#youtube {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #484763;
+    padding: 20px; 
+    border-radius: 20px; 
+    margin: 3%;
+    width: 87%;
+    text-align: center;
+    align-content: center;
+    max-width: fit-content;
+
+}
+
+#pinterest {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: #484763;
+    padding: 20px; 
+    border-radius: 20px; 
+    margin: 3%;
+    width: 87%;
+    text-align: center;
+    align-content: center;
 }
 
 nav img:hover {
@@ -129,17 +154,18 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
-footer :hover{
-    opacity: .5;
-}
-
-
 section img:hover {
-    transform: rotate(5deg);
+    transform: rotate(1deg);
 }
 
 section video:hover {
-    transform: rotate(5deg);
+    transform: rotate(1deg);
+}
+
+/* Splash page */
+.logo:hover {
+    transform: scale(1.05); 
+    opacity: 0.6; 
 }
 
 .ocean {
