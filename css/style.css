@@ -154,6 +154,19 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 
+nav a {
+    font-size: 1em;
+    color: #F1EA54; 
+    font-family: 'Lora', serif;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.friends a :hover {
+    color: #484763; 
+}
+
 section img:hover {
     transform: rotate(1deg);
 }
